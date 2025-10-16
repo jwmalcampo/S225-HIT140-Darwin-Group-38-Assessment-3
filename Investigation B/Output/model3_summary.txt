@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     bat_landing_number   R-squared:                       0.209
+Model:                            OLS   Adj. R-squared:                  0.198
+Method:                 Least Squares   F-statistic:                     17.90
+Date:                Thu, 16 Oct 2025   Prob (F-statistic):           8.32e-24
+Time:                        10:09:14   Log-Likelihood:                -2425.9
+No. Observations:                 550   AIC:                             4870.
+Df Residuals:                     541   BIC:                             4909.
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                 41.7766      6.540      6.388      0.000      28.930      54.623
+season                    -0.8765      3.191     -0.275      0.784      -7.145       5.392
+rat_arrival_number         1.9780      2.777      0.712      0.477      -3.478       7.434
+food_availability         -3.8034      1.593     -2.387      0.017      -6.933      -0.673
+hours_after_sunset        -2.2410      0.392     -5.710      0.000      -3.012      -1.470
+rat_influence_log          1.3428      2.053      0.654      0.513      -2.690       5.376
+risk_reward_ratio_log     12.3652      4.563      2.710      0.007       3.401      21.330
+season_0_x_rat_arrival     2.5243      1.139      2.215      0.027       0.286       4.763
+season_1_x_rat_arrival    -3.0031      1.833     -1.639      0.102      -6.603       0.597
+==============================================================================
+Omnibus:                       68.885   Durbin-Watson:                   0.770
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               93.708
+Skew:                           0.915   Prob(JB):                     4.48e-21
+Kurtosis:                       3.860   Cond. No.                         66.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

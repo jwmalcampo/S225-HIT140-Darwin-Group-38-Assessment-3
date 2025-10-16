@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     bat_landing_number   R-squared:                       0.026
+Model:                            OLS   Adj. R-squared:                  0.026
+Method:                 Least Squares   F-statistic:                     57.63
+Date:                Thu, 16 Oct 2025   Prob (F-statistic):           4.70e-14
+Time:                        10:09:14   Log-Likelihood:                -9826.5
+No. Observations:                2128   AIC:                         1.966e+04
+Df Residuals:                    2126   BIC:                         1.967e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     36.7085      0.826     44.421      0.000      35.088      38.329
+season        -8.1921      1.079     -7.592      0.000     -10.308      -6.076
+==============================================================================
+Omnibus:                      191.746   Durbin-Watson:                   0.370
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              245.521
+Skew:                           0.829   Prob(JB):                     4.85e-54
+Kurtosis:                       3.150   Cond. No.                         2.87
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

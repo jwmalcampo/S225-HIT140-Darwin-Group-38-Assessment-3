@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     bat_landing_number   R-squared:                       0.054
+Model:                            OLS   Adj. R-squared:                  0.051
+Method:                 Least Squares   F-statistic:                     24.08
+Date:                Thu, 16 Oct 2025   Prob (F-statistic):           1.25e-23
+Time:                        10:09:14   Log-Likelihood:                -9796.3
+No. Observations:                2128   AIC:                         1.960e+04
+Df Residuals:                    2122   BIC:                         1.964e+04
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept             44.6794      3.181     14.044      0.000      38.440      50.919
+season                -8.0695      1.099     -7.341      0.000     -10.225      -5.914
+rat_minutes           -2.9240      5.479     -0.534      0.594     -13.668       7.820
+rat_arrival_number    -0.8337      1.676     -0.497      0.619      -4.121       2.453
+food_availability     -0.6620      0.800     -0.828      0.408      -2.230       0.906
+hours_after_sunset    -1.0895      0.240     -4.538      0.000      -1.560      -0.619
+==============================================================================
+Omnibus:                      186.677   Durbin-Watson:                   0.383
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              236.655
+Skew:                           0.809   Prob(JB):                     4.08e-52
+Kurtosis:                       3.233   Cond. No.                         74.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
